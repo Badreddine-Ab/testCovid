@@ -1,0 +1,28 @@
+.navBar {
+    background-image: url(Assets/SVG/MergedBar-61.svg);
+    height: 10vh;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.jaune {
+    background-color: #F4CF1B;
+    height: 25vh;
+}
+
+.leftSide {
+    width: 50%;
+    /* background-color: violet; */
+}
+
+.rightSide {
+    width: 50%;
+    /* background-color: rgb(92, 59, 92); */
+}
+
+.rightSide>img {
+    width: 100%;
+}
