@@ -26,3 +26,25 @@ body {
 .rightSide>img {
     width: 100%;
 }
+
+button {
+    background-image: url(Assets/SVG/MergedBar-61.svg);
+    background-repeat: no-repeat;
+}
+
+button:hover {
+    color: white !important;
+    background-color: rgba(0, 0, 255, 0.678);
+}
+
+.circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+section {
+    margin: 0 100px 0 100px;
+    padding: 50px;
+    background-color: rgb(235, 235, 235);
+}
