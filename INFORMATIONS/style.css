@@ -1,0 +1,25 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.navBar {
+    background-image: url(Assets/SVG/Merged\ bar-61.svg);
+    height: 10vh;
+}
+
+.circle {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+section {
+    margin: 0 100px 0 100px;
+    padding: 50px;
+    background-color: rgb(235, 235, 235);
+}
+
+hr {
+    /* color: black !important; */
+}
