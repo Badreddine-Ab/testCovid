@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="quizPage.css">
+    <title>test</title>
+</head>
+<body>
+    <!-- head -->
+    <!-- steper -->
+    <!-- quiz -->
+    <section class="quiz m-auto w-75 border border-secondary rounded-2 bg-light p-5">
+        <div class="progressBar"></div>
+        <div class="quests">
+            <div class="quest  text-center justify-content-center align-self-center" id="ques1">
+                <h4>Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?
+                </h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <div class="col-12">
+                <div class="col-9"></div>   
+                <input class="suiv col-3 m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+                </div> 
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques2">
+                <h4>Quelle est votre température corporelle ?
+                </h4>
+                <div class="reponses">
+                    <input type="number" min="34" max="42" placeholder="34-42">
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">  
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques3">
+                <h4>Ces derniers jours, avez-vous une toux ou une augmentation de votre toux habituelle ?
+                </h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div> 
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">              
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques4">
+                <h4>Avez-vous eu des courbatures inhabituelles au cours des derniers jours ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques5">
+                <h4>Ces derniers jours, avez-vous un mal de gorge ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques6">
+                <h4>Ces dernières 24 heures, avez-vous de la diarrhée ? Avec au moins 3 selles molles.</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques7">
+                <h4>Ces derniers jours, avez-vous une fatigue inhabituelle qui vous a obligé à vous reposer plus de la moitié de la journée ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques8">
+                <h4>Avez-vous des difficultés importantes pour vous alimenter ou boire depuis plus de 24h ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques9">
+                <h4>Dans les dernières 24 heures, avez-vous noté un manque de souffle inhabituel lorsque vous parlez ou faites un petit effort ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques10">
+                <h4>Actuellement, comment vous vous sentez ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Bien
+                    <input type="radio" name="rep" value="">Assez bien
+                    <input type="radio" name="rep" value="">Fatigué(e)
+                    <input type="radio" name="rep" value="">Trés fatigué(e)                   
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques11">
+                <h4>Quel est votre âge ? Ceci, afin de calculer un facteur de risque spécifique.</h4>
+                <div class="reponses">
+                    <input type="number" min="15" max="115" placeholder="15-115">
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques12">
+                <h4>Quel est votre poids ? Afin de calculer l’indice de masse corporelle qui est un facteur influençant le risque de complications de l’infection.</h4>
+                <div class="reponses">
+                    <input type="number" min="20" max="250" placeholder="20-250">
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques13">
+                <h4>Quelle est votre taille ? Afin de calculer l’indice de masse corporelle qui est un facteur influençant le risque de complications de l’infection.</h4>
+                <div class="reponses">
+                    <input type="number" min="80" max="250" placeholder="80-250">
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">  
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques14">
+                <h4>Avez-vous de l’hypertension artérielle mal équilibrée ? Ou avez-vous une maladie cardiaque ou vasculaire ? Ou prenez-vous un traitement à visée cardiologique ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques15">
+                <h4>Êtes-vous diabétique ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques16">
+                <h4>Avez-vous ou avez-vous eu un cancer ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques17">
+                <h4>Avez-vous une maladie respiratoire ? Ou êtes-vous suivi par un pneumologue ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques18">
+                <h4>Avez-vous une insuffisance rénale chronique dialysée ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques19">
+                <h4>Avez-vous une maladie chronique du foie ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques20">
+                <h4>Êtes-vous enceinte ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                    <input type="radio" name="rep" value="">Homme
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques21">
+                <h4>Avez-vous une maladie connue pour diminuer vos défenses immunitaires ?</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+                <input class="m-2 justify-content-end text-content-center border border-primary rounded-2 bg-white" type="button" value="suivant">
+            </div>
+            <div class="quest  text-center justify-content-center align-self-center" id="ques22">
+                <h4>Prenez-vous un traitement immunosuppresseur ? C’est un traitement qui diminue vos défenses contre les infections. Voici quelques exemples : corticoïdes, méthotrexate, ciclosporine, tacrolimus, azathioprine, cyclophosphamide (liste non exhaustive).</h4>
+                <div class="reponses">
+                    <input type="radio" name="rep" value="">Oui
+                    <input type="radio" name="rep" value="">Non
+                </div>
+                <input class="m-2 justify-content-start text-content-center border border-primary rounded-2 bg-white" type="button" value="précedent">
+
+            </div>
+
+           
+        </div>
+    </section>
+    
+</body>
+</html>
