@@ -20,7 +20,6 @@ body {
 
 .rightSide {
     width: 50%;
-    /* background-color: rgb(92, 59, 92); */
 }
 
 .rightSide>img {
@@ -47,4 +46,45 @@ section {
     margin: 0 100px 0 100px;
     padding: 50px;
     background-color: rgb(235, 235, 235);
+}
+
+header>div>ul>li>.flag {
+    width: 80px;
+}
+
+header>div>ul>li>a>img {
+    width: 80%;
+}
+
+.flag {
+    border-radius: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .jaune {
+        background-color: #F4CF1B;
+        height: 35vh;
+    }
+    .demarrerTest {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .rightSide {
+        width: 100%;
+    }
+    .leftSide {
+        width: 100%;
+    }
+    /* header>.logo {
+        margin-left: 0 !important;
+    } */
+    header>.logo>a {
+        /* margin-left: 25px !important; */
+    }
+    /* header>.menu {
+        margin-right: 0 !important;
+    } */
+    header>.menu>ul {
+        margin-right: 0 !important;
+    }
 }
